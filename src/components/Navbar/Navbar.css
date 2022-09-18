@@ -1,0 +1,50 @@
+html{
+  font-size: 62.5%;
+}
+#logo{
+    width:198.7px;
+    height: 60.92px;
+  }
+  #content{
+    display: inline !important;
+  }
+  #hindi{
+    margin:1% !important;
+  display: inline;
+  height: 1.6rem;
+  font-family: 'Lato', 'sans-seri';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  }
+  #english{
+    font-family: 'Lato', 'sans-seri';
+    margin-left:1% !important;
+    display:inline;
+    height: 1.7rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+  }
+  @media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+  }
+  @media(max-width:768px)
+  {
+    html{
+      font-size: 45%;
+    }
+  }
+  
+  @media(max-width:768px)
+  {
+    #logo{
+      width:100px;
+      height: 33.84px;
+    }
+  }

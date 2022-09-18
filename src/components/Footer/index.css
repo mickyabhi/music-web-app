@@ -1,0 +1,17 @@
+#footer {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 35px;
+}
+@media screen and (max-width: 600px) {
+  #footer-container{
+  padding-top: 35px;
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}

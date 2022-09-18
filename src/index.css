@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+body {
+  margin: 0;
+  background-color: #03174c;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#switch {
+  margin-left: 1% !important;
+  display: inline;
+  width: 34px;
+  height: 14px;
+}
+
+#container-fluid {
+  padding: 3% 15% !important;
+}
+
+#button {
+  padding: 3% 15% !important;
+  margin-top: 15% !important;
+}
+
+#girl {
+  width: 243px !important;
+  height: 268px !important;
+  left: 355px !important;
+  top: 100px !important;
+}
+
+@media screen and (max-width: 600px) {
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
